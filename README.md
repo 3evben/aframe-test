@@ -9,7 +9,7 @@ To publish your scene to your personal GitHub Pages:
 
     npm run deploy
 
-And, it'll now be live at __http://`your_username`.github.io/__ :)
+And, it'll now be live at __http://3evben.github.io/aframe-test/__
 
 <hr>
 
