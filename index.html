@@ -6,6 +6,7 @@
     <meta name="description" content="Hello, World! • A-Frame">
     <script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>
     <script src="alongpath.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
   </head>
   <body>
     <a-scene>
@@ -16,7 +17,7 @@
         <a-asset-item id="tree-mtl" src="BigPalmTree.mtl"></a-asset-item>
         <a-asset-item id="gameboy-dae" src="model.dae"></a-asset-item>
         <img id="grass-img" src="grass.jpg"></a-img>
-        <video id="record" src="record.mp4" autoplay loop="true" muted></video>
+        <video id="record" src="record.mp4" autoplay loop="true" muted webkit-playsinline></video>
       </a-assets>
 
       <a-sky color="#09e"></a-sky>
